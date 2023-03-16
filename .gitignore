@@ -1,0 +1,51 @@
+# .gitignore
+
+# Virtual environment
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Cache files
+*.cache
+
+# Logs
+logs/
+*.log
+
+# Distribution / packaging
+.Python
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Unit test / coverage reports
+.coverage
+.tox
+.nox
+.pytest_cache/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PyCharm files
+.idea/
+
+# Visual Studio Code files
+.vscode/
